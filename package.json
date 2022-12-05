@@ -1,0 +1,36 @@
+{
+  "name": "@allen-packages/npm-sandbox",
+  "packageManager": "yarn@3.3.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "lint": "eslint --ext ts __test__/**/*"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "esnext",
+    "es6",
+    "es7",
+    "es2015",
+    "es2016"
+  ],
+  "author": "t_araki@yumemi.co.jp",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-typescript": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.3"
+  }
+}
