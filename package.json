@@ -1,9 +1,8 @@
 {
-  "name": "@allen-packages/npm-sandbox",
+  "name": "@allen-pacakges/npm-sandbox",
   "packageManager": "yarn@3.3.0",
   "version": "0.0.1",
   "main": "index.js",
-  "private": false,
   "description": "",
   "scripts": {
     "lint": "eslint --ext ts __test__/**/*"
